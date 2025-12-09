@@ -5,7 +5,7 @@ def Calculste(a, b, what_do_you_want):
     def add(a, b):
         return a + b
 
-    def zarb(a, b):
+    def zarb(a, b):# for example I can't write zarb function out the Calculste function (The same legb)
         return a * b
 
     if what_do_you_want == "add":
