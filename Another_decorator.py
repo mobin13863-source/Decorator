@@ -11,7 +11,7 @@ def macgic_dec(f):
 
     def wrapper(*args, **kwargs):
         nonlocal count  # for that I can use External variable
-        count += 1  # Every time the program runs, someone adds one to it.
+        count += 1  # Every time the program runs, someone adds one to it. 
         Start = time.time()  # save time
         result = f(*args, **kwargs)
         end = time.time()
